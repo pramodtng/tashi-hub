@@ -128,3 +128,5 @@ class VerticalMouseDrivenCarousel {
 }
 
 new VerticalMouseDrivenCarousel();
+
+
