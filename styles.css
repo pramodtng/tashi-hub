@@ -177,7 +177,7 @@ body {
 }
 
 .content h2:nth-child(2) {
-	color: #c19bf5;
+	color: #167dc1;
 	animation: animate 4s ease-in-out infinite;
 }
 
@@ -213,30 +213,26 @@ body {
 .para {
   text-align: center;
   line-height: 0;
-  color: #c19bf5;
+  color: #167dc1;
   letter-spacing: 2px;
   font-size: 1.5rem;
   font-family: 'Work Sans', sans-serif;
   font-weight: 900;
 }
-.para {
-	 position: relative;
-	 white-space: nowrap;
+hr {
+  border: 0;
+  margin: 1.35em auto;
+  max-width: 100%;
+  background-position: 50%;
+  box-sizing: border-box;
 }
- .para:after {
-	 --deco-height: 0.3125em;
-	 content: "";
-	 position: absolute;
-	 left: 0;
-	 right: 0;
-   width: 42%;
-   margin: auto;
-	 bottom: calc(var(--deco-height) * -3);
-	 height: var(--deco-height);
-	 background-image: url("data:image/svg+xml,%3Csvg width='100' height='64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23a)'%3E%3Cpath d='M-17 30.5C-1 22 72-4 54 13 37.9 28.2-2.5 57.5 16 55.5s72-29 104-40' stroke='%2300FDCF' stroke-width='10'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='a'%3E%3Cpath fill='%23fff' d='M0 0h100v64H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
-	 background-size: auto 100%;
-	 background-repeat: round;
-	 background-position: 0em;
+
+.dots {
+	 color: orange;
+	 border-width: 0 0 8px;
+	 border-style: solid;
+	 border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1" width="8" height="4"><circle fill="orange" cx="1" cy="0.5" r="0.5"/></svg>') 0 0 100% repeat;
+	 width: 450px;
 }
 .logo {
   display: flex;
